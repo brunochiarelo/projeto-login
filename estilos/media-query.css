@@ -15,7 +15,7 @@
         
     }
 
-    section#lofin > div#formulario {
+    section#login > div#formulario {
         float: right;
         width: 70%;
     }
@@ -47,5 +47,10 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form > input[type=submit] {
+        width: 70%;
+        margin: auto;
     }
 }
